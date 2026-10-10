@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="timet"
+version="1.0.0"
+displayName="TimeT"
+authors="Théo Gastinel"
+description='''Synchronise l'heure Minecraft avec l'heure réelle de votre PC en temps réel.'''
+
+[[dependencies.timet]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.timet]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1,1.21.2)"
+    ordering="NONE"
+    side="BOTH"
